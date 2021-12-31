@@ -13,11 +13,9 @@ def init():
                 d = d + c
     return path
 def move(path,destination):
-    print(platform.system())
     if platform.system() == 'windows':
         for i in path:
             subprocess.Popen("move "+i+' '+destination, shell=True)
     elif platform.system() == 'Linux':
         for i in path:
             subprocess.Popen("mv "+i+' '+destination, shell=True)
-    print('ok')
