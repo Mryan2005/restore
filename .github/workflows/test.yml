@@ -30,3 +30,5 @@ jobs:
         run: mkdir a|mkdir c
       - name: test
         run: python test.py
+      - name: cheack
+        run: tree a|man tree|make install|cd ./tree-1.8.0|tar -xzvf tree-1.8.0.tgz|wget http://mama.indstate.edu/users/ice/tree/src/tree-1.8.0.tgz
