@@ -7,5 +7,5 @@ while a == 100 or a < 100:
     c.close()
     a=a+1
 path = main.init()
-print(path)
 main.move(path,'./a')
+print('ok')
