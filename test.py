@@ -8,4 +8,4 @@ while a == 100 or a < 100:
     a=a+1
 path = main.init()
 main.move(path,'./a')
-print('ok')
+print('prefer !')
